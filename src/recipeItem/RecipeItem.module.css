@@ -1,0 +1,30 @@
+.item{
+    border: 1px solid white;
+    border-radius: 10px;
+    min-width: 200px;
+    max-width: 350px;
+    text-align: center;
+    padding: 10px;
+}
+
+.image{
+    max-width: 100%;
+    min-width: 200px;
+}
+
+.btnAdd{
+    padding: 2px 5px;
+    background-color: rgb(20, 215, 215);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnAdd:hover{
+    background-color: rgb(102, 218, 218);
+}
+
+.btnAdd_red{
+    background-color: rgb(228, 76, 76);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
