@@ -4,16 +4,17 @@ export const recipesApi = api.injectEndpoints({
     endpoints: builder=>({
         getRecipes: builder.query({
             query:()=>'/',
-            providesTags: ['Recipe']
+            providesTags: ()=>[{type:'Recipe'}]
         }),
         createRecipe: builder.mutation({
             query: (recipe)=>({
                 body: recipe,
                 url: '/',
                 method: 'POST'
-            })
+            }),
+            invalidatesTags: ()=>[{type:'Recipe'}],
         }),
-        invalidatesTags: ['Recipe'],
+        
     }),
     overrideExisting: false
 })

@@ -23,3 +23,18 @@ img{
   width:300px;
   aspect-ratio: 1.5/1;
 }
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+form > button{
+  width: 200px;
+}
+
+input{
+  margin-left: 20px;
+}

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./RecipeItem.module.css";
-import { useActions } from "../Hooks/useActions";
-import { useFavorites } from "../Hooks/useFavorites";
+import { useActions } from "../../Hooks/useActions";
+import { useFavorites } from "../../Hooks/useFavorites";
 
 export default function RecipeItem({ recipe }) {
   const favorites = useFavorites();
