@@ -1,8 +1,14 @@
 import { useFavorites } from "./Hooks/useFavorites";
 import RecipeItem from "./recipeItem/recipeItem";
 import { FaBookBookmark } from "react-icons/fa6";
+import { useGetRecipesQuery } from "./store/favorites/api/api.ednpoints";
+
+
 function App() {
   const favorites = useFavorites();
+  const {data, isLoading, error} = useGetRecipesQuery()
+  console.log(data)
+
   return (
     <>
       <div style={{ margin: "10px" }}>
@@ -10,24 +16,8 @@ function App() {
         <span style={{ marginLeft: "10px" }}>{favorites.length}</span>
       </div>
       <div className="wrapper">
-        <RecipeItem
-          recipe={{
-            id: 1,
-            name: "Lasaniya",
-          }}
-        />
-        <RecipeItem
-          recipe={{
-            id: 2,
-            name: "Pizza",
-          }}
-        />
-        <RecipeItem
-          recipe={{
-            id: 3,
-            name: "Pasta",
-          }}
-        />
+        {isLoading ? 'Please wait... Loading' : data ? data.map(res=>(<RecipeItem recipe={res} key={res.id}/>)) : 'Not found'}
+        {/* {data && )} */}
       </div>
     </>
   );

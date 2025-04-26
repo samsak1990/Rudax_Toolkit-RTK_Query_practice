@@ -1,0 +1,25 @@
+{
+    "recipes":[
+        {
+            "id": 1,
+            "name": "Apple Frangipan Tart",
+            "image": "https://avatars.mds.yandex.net/i?id=43db8acc1da67d06954542cb7a06724c2d0121600943d2bb-4591508-images-thumbs&n=13"
+        },
+        {
+            "id": 2,
+            "name": "Frangipan Tart",
+            "image": "https://avatars.mds.yandex.net/i?id=1b8abcdfe19191a6972fc60768b1d9ab9c23e8e8-10766948-images-thumbs&n=13"
+        },
+        {
+            "id": 3,
+            "name": "Apple Tart",
+            "image": "https://avatars.mds.yandex.net/i?id=925a8239cd9dc4c85b54131516921678-5331692-images-thumbs&n=133"
+        },
+        {
+            "id": 4,
+            "name": "Apple Frangipan",
+            "image": "https://avatars.mds.yandex.net/i?id=7f41c8ab9be4ff81f2c4369520fb0418ec668fc9-10636720-images-thumbs&n=13"
+        }
+
+    ]
+}
