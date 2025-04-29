@@ -14,9 +14,16 @@ export const recipesApi = api.injectEndpoints({
             }),
             invalidatesTags: ()=>[{type:'Recipe'}],
         }),
+        removeRecipe: builder.mutation({
+            query: (id)=>({
+                url: `/${id}`,
+                method: 'DELETE',
+            }),
+            invalidatesTags: ()=>[{type:'Recipe'}],
+        })
         
     }),
     overrideExisting: false
 })
 
-export const {useGetRecipesQuery, useCreateRecipeMutation} = recipesApi
+export const {useGetRecipesQuery, useCreateRecipeMutation, useRemoveRecipeMutation} = recipesApi

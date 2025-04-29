@@ -1,24 +1,9 @@
 {
   "recipes": [
     {
-      "id": "1",
-      "name": "Apple Frangipan Tart",
-      "image": "https://avatars.mds.yandex.net/i?id=43db8acc1da67d06954542cb7a06724c2d0121600943d2bb-4591508-images-thumbs&n=13"
-    },
-    {
-      "id": "2",
-      "name": "Frangipan Tart",
-      "image": "https://avatars.mds.yandex.net/i?id=1b8abcdfe19191a6972fc60768b1d9ab9c23e8e8-10766948-images-thumbs&n=13"
-    },
-    {
       "id": "d4b2",
       "name": "Pasta",
       "image": "https://avatars.mds.yandex.net/i?id=88056ef8138a9c6a6ab5ff1e8c6bdf32a0a3f6ac-7011592-images-thumbs&n=13"
-    },
-    {
-      "id": "862f",
-      "name": "Pasta 2",
-      "image": "https://avatars.mds.yandex.net/i?id=2a3d2c3f7155513477f23ddeda66d30573562a03-9136745-images-thumbs&n=13"
     }
   ]
 }

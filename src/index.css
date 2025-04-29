@@ -38,3 +38,15 @@ form > button{
 input{
   margin-left: 20px;
 }
+
+.deleteBtn{
+  border: 1px solid red;
+  padding:2px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.deleteBtn:hover{
+  background-color: rgb(223, 81, 81);
+  color: white;
+}
